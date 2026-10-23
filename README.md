@@ -8,9 +8,6 @@ I'm **Arda**, a software engineering student working toward **backend developmen
 
 ![C#, Java, HTML and CSS](https://skillicons.dev/icons?i=cs,java,html,css&theme=dark&perline=4)
 
-**Programming:** C# · Java  
-**Web:** HTML · CSS
-
 ## Featured work
 
 ### [Campus Budget CLI](https://github.com/ardazeybek/campus-budget-cli)
