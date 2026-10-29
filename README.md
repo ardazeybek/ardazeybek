@@ -1,66 +1,50 @@
-<p align="center">
-  <img src="assets/header.svg" width="100%" alt="Arda Zeybek — Software engineering student. Learning by building." />
-</p>
+# Hi, I'm Arda.
 
-<p align="center">
-  <a href="https://github.com/ardazeybek?tab=repositories"><strong>Projects</strong></a>&nbsp; · &nbsp;
-  <a href="https://www.instagram.com/azeybek_dev/">Instagram</a>&nbsp; · &nbsp;
-  <a href="https://www.tiktok.com/@azeybek_dev">TikTok</a>&nbsp; · &nbsp;
-  <a href="https://www.reddit.com/user/azeybek_dev/">Reddit</a>
-</p>
+I build small tools, explore ideas, and share what I learn along the way.
 
-### A little about me
+## About me
 
-I'm Arda, a software engineering student working toward **backend development** with **C#** and **Java**. I also work with **HTML** and **CSS** as I learn to build for the web.
+- Interested in backend development and practical, useful software.
+- Learning by building, reading code, and improving my projects.
+- Keeping a clear record of what I write myself and where I use AI.
 
-This is where I share small tools, learning projects, and the improvements I make along the way.
-
-### Languages I'm working with
+## Skills
 
 <p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="48" height="48" alt="HTML5" title="HTML" />&nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="48" height="48" alt="CSS3" title="CSS" />&nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="48" height="48" alt="Java" title="Java" />&nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="48" height="48" alt="C sharp" title="C#" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="40" height="40" alt="HTML" />&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="40" height="40" alt="CSS" />&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" height="40" alt="Java" />&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="40" height="40" alt="C#" />
 </p>
 
-**HTML · CSS · Java · C#**
+## Projects I write myself
 
-### Things I've shared
+These are the projects I code by hand while learning. They reflect my own programming work and current skills.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3>01 &nbsp; Devlog</h3>
-<p>A free VS Code extension for seeing active coding time, daily goals, languages, and streaks in a local dashboard.</p>
-<p><strong>Developer tools · Local data · Open source</strong></p>
-<p><a href="https://github.com/ardazeybek/devlog">Explore the repo →</a><br /><a href="https://marketplace.visualstudio.com/items?itemName=ardazeybek.devlog-coding-activity">Install for VS Code →</a></p>
-</td>
-<td width="50%" valign="top">
-<h3>02 &nbsp; Campus Budget CLI</h3>
-<p>A student budgeting app for recording income and expenses, reviewing a budget, and trying out planned expenses.</p>
-<p><strong>C# · .NET · Command line</strong></p>
-<p><a href="https://github.com/ardazeybek/campus-budget-cli">Explore the repo →</a></p>
-</td>
-</tr>
-</table>
+### [Campus Budget CLI](https://github.com/ardazeybek/campus-budget-cli)
 
-### Currently learning
+A budgeting app for students: record income and expenses, review a budget, and try planned expenses without changing the balance.
 
-- C# and Java fundamentals, with a focus on backend development.
-- HTML, CSS, and how web interfaces fit together.
-- Clearer code, better input checks, saved data, and tests.
-
-<details>
-<summary><strong>About how I build these projects</strong></summary>
-<br />
-
-**Campus Budget CLI** is a project I write by hand while learning.
-
-**Devlog** started with AI-generated code. I shaped the idea, features, and design, and I'm learning to understand and maintain it myself. The repository explains how AI was used.
-
-</details>
+I'm working on clearer code structure, better input checks, saved data, and tests.
 
 ---
 
-**Have an idea or spotted a bug?** Open an issue on the project — feedback and contributions are welcome.
+## Projects built with AI
+
+For these projects, I use AI to turn an idea into a working app. I choose the features and design, test the result, and ask for changes. **AI-generated code is not presented as code I wrote entirely by hand.**
+
+### [Devlog](https://github.com/ardazeybek/devlog)
+
+A free VS Code extension that tracks active editing time and shows coding activity, streaks, and daily goals in a local dashboard.
+
+**AI wrote the initial code.** I shaped the idea, features, and design. I'm still learning how the project works. As I learn, I plan to take on changes and fixes myself, gradually understand the rest of the codebase, and work toward maintaining it independently.
+
+[Repository](https://github.com/ardazeybek/devlog) · [Install for VS Code](https://marketplace.visualstudio.com/items?itemName=ardazeybek.devlog-coding-activity)
+
+---
+
+## Find me
+
+[Instagram](https://www.instagram.com/azeybek_dev/) · [TikTok](https://www.tiktok.com/@azeybek_dev) · [Reddit](https://www.reddit.com/user/azeybek_dev/)
+
+For feedback or ideas, open an issue on the relevant project.
