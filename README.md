@@ -1,37 +1,66 @@
-# Hi, I'm Arda Zeybek.
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="Arda Zeybek — Software engineering student. Learning by building." />
+</p>
 
-I'm a software engineering student working toward backend development with **C#** and **Java**. I'm also learning **HTML** and building up my web development skills.
+<p align="center">
+  <a href="https://github.com/ardazeybek?tab=repositories"><strong>Projects</strong></a>&nbsp; · &nbsp;
+  <a href="https://www.instagram.com/azeybek_dev/">Instagram</a>&nbsp; · &nbsp;
+  <a href="https://www.tiktok.com/@azeybek_dev">TikTok</a>&nbsp; · &nbsp;
+  <a href="https://www.reddit.com/user/azeybek_dev/">Reddit</a>
+</p>
 
-I keep two kinds of projects here. The sections below explain how each one was made.
+### A little about me
 
-## Projects I code myself
+I'm Arda, a software engineering student working toward **backend development** with **C#** and **Java**. I also work with **HTML** and **CSS** as I learn to build for the web.
 
-These are the projects I write by hand while learning. They show my current programming skills and the steps I'm taking to improve.
+This is where I share small tools, learning projects, and the improvements I make along the way.
 
-### [Campus Budget CLI](https://github.com/ardazeybek/campus-budget-cli)
+### Languages I'm working with
 
-A student budgeting app I wrote with C# and .NET 10. It records income and expenses, shows a budget summary, and lets you try planned expenses without changing your balance.
+<p>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="48" height="48" alt="HTML5" title="HTML" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="48" height="48" alt="CSS3" title="CSS" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="48" height="48" alt="Java" title="Java" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="48" height="48" alt="C sharp" title="C#" />
+</p>
 
-I'm working on clearer code structure, better input checks, saved data, and tests.
+**HTML · CSS · Java · C#**
 
-## Projects built with AI
+### Things I've shared
 
-For these projects, I use AI to turn an idea into a working app. I choose the features and design, try the result, and ask for changes. I don't present AI-generated code as code I wrote entirely by hand. Each project explains how AI was used and what I'm learning from it.
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>01 &nbsp; Devlog</h3>
+<p>A free VS Code extension for seeing active coding time, daily goals, languages, and streaks in a local dashboard.</p>
+<p><strong>Developer tools · Local data · Open source</strong></p>
+<p><a href="https://github.com/ardazeybek/devlog">Explore the repo →</a><br /><a href="https://marketplace.visualstudio.com/items?itemName=ardazeybek.devlog-coding-activity">Install for VS Code →</a></p>
+</td>
+<td width="50%" valign="top">
+<h3>02 &nbsp; Campus Budget CLI</h3>
+<p>A student budgeting app for recording income and expenses, reviewing a budget, and trying out planned expenses.</p>
+<p><strong>C# · .NET · Command line</strong></p>
+<p><a href="https://github.com/ardazeybek/campus-budget-cli">Explore the repo →</a></p>
+</td>
+</tr>
+</table>
 
-### [Devlog](https://github.com/ardazeybek/devlog)
-
-A free VS Code extension that tracks coding time and shows your progress in a browser dashboard.
-
-**AI wrote the initial code.** I shaped the idea, features, and design. I'm still learning how the whole project works. As I learn HTML, I plan to take on its HTML changes and fixes myself, then gradually work through the other parts. My goal is to understand and maintain the app on my own.
-
-[Install Devlog from the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ardazeybek.devlog-coding-activity)
-
-## What I'm learning now
+### Currently learning
 
 - C# and Java fundamentals, with a focus on backend development.
-- HTML and the structure of web pages.
-- How to read, test, and improve the projects I share here.
+- HTML, CSS, and how web interfaces fit together.
+- Clearer code, better input checks, saved data, and tests.
 
-## Get in touch
+<details>
+<summary><strong>About how I build these projects</strong></summary>
+<br />
 
-Ideas, feedback, and contributions are welcome. You can open an issue on a project or email me at **quantastudio.dev@gmail.com**.
+**Campus Budget CLI** is a project I write by hand while learning.
+
+**Devlog** started with AI-generated code. I shaped the idea, features, and design, and I'm learning to understand and maintain it myself. The repository explains how AI was used.
+
+</details>
+
+---
+
+**Have an idea or spotted a bug?** Open an issue on the project — feedback and contributions are welcome.
