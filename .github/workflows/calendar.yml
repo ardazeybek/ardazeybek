@@ -1,0 +1,43 @@
+# Redraws the contribution calendar image in the profile README once a day.
+name: Update contribution calendar
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Playwright + headless Chromium, installed outside the repo
+      - name: Install Playwright
+        run: |
+          cd .github/profile
+          npm init -y >/dev/null
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps --only-shell chromium
+
+      - name: Render calendar
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/profile/update-calendar.mjs
+
+      # Commit only when the images changed
+      - name: Commit
+        run: |
+          git add assets/about-dark.png assets/about-light.png
+          if git diff --cached --quiet; then echo "No change"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update contribution calendar"
+          git push
