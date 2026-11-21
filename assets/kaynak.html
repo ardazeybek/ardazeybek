@@ -1,0 +1,128 @@
+<!doctype html><meta charset=utf-8>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel=stylesheet>
+<style>
+*{box-sizing:border-box;margin:0}
+html{background:transparent}
+body{width:1000px;zoom:2;font-family:Inter,sans-serif;color:#ecebf3;-webkit-font-smoothing:antialiased}
+.blk{margin-bottom:24px;position:relative}
+.card{background:linear-gradient(180deg,#1a1a22,#141419);border:1px solid #2a2a35;border-radius:16px}
+.mut{color:#a09fb0}
+/* hero */
+#hero{height:170px;border-radius:16px;overflow:hidden;border:1px solid #2a2a35}
+#hero svg{display:block}
+.quote{position:absolute;left:50px;top:42px;padding-left:16px;border-left:3px solid #8b6cf6;font-size:17px;color:#f1effa;height:44px;display:flex;align-items:center}
+/* contact */
+#contact{display:flex;align-items:center;height:84px;padding:0 22px;gap:0}
+.ico{width:48px;height:48px;border-radius:12px;background:#231f3d;border:1px solid #4a3f86;display:grid;place-items:center;color:#a78bfa;font-weight:700;font-size:20px}
+.ctext{margin-left:22px;width:330px}
+.ctext h3{font-size:18px;font-weight:600}
+.ctext p{font-size:13.5px;margin-top:5px}
+.soc{display:flex;align-items:center;gap:8px;height:38px;padding:0 14px;border:1px solid #33323f;border-radius:999px;background:#1c1c25;font-size:13.5px;color:#d9d7e6;margin-right:10px}
+.soc img{width:16px;height:16px;filter:invert(1);opacity:.85}
+.btn{margin-left:auto;height:38px;padding:0 20px;border-radius:999px;background:#7c5cf0;color:#fff;font-size:14px;font-weight:500;display:flex;align-items:center;gap:8px;box-shadow:0 6px 20px -6px #7c5cf0}
+/* row 2 */
+#row2{display:flex;gap:14px}
+.ptitle{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:600}
+.ptitle svg{color:#a78bfa}
+#stack{flex:1;padding:22px 24px 20px;height:150px}
+.icons{display:flex;justify-content:space-around;margin-top:24px}
+.icons div{text-align:center;font-size:12px;color:#cfcddc}
+.icons img{width:34px;height:34px;display:block;margin:0 auto 9px}
+#about{width:300px;padding:20px 22px;height:150px}
+#about p{font-size:12.5px;line-height:1.45;margin-top:10px}
+.tags{display:flex;gap:14px;margin-top:9px;font-size:12px;color:#cfcddc}
+/* projects */
+.sec{display:flex;align-items:center;justify-content:space-between;padding:4px 4px 12px}
+.sec .l{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:600}
+.badge{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:5px 10px;border-radius:999px}
+.hw{background:#ecebf3;color:#141419}
+.ai{color:#a78bfa;border:1px dashed #8b6cf6;background:repeating-linear-gradient(45deg,transparent 0 5px,rgba(139,108,246,.14) 5px 10px)}
+.sec .r{font-size:12.5px}
+.grid{display:flex;gap:14px}
+.pc{flex:0 0 calc(50% - 7px);height:96px;padding:18px;display:flex;gap:16px;align-items:center}
+.pc .pi{width:52px;height:52px;border-radius:13px;background:#1f1d2e;border:1px solid #34304f;display:grid;place-items:center;flex:none}
+.pc h4{font-size:15px;font-weight:600}
+.pc p{font-size:12.5px;margin-top:4px}
+.pc .st{font-size:12px;margin-top:8px;color:#bdbbcb;display:flex;align-items:center;gap:5px}
+.big{display:flex;align-items:center;gap:10px;font-size:19px;font-weight:700;padding:2px 4px 14px}.cc{flex:0 0 calc(33.333% - 9.4px);height:76px;padding:14px 16px;display:flex;gap:14px;align-items:center}.cc img{width:44px;height:44px;border-radius:11px;flex:none}.cc h4{font-size:14px;font-weight:600}.cc .st{font-size:12px;margin-top:5px;color:#bdbbcb;display:flex;gap:5px;align-items:center}
+.ghost{flex:1;visibility:hidden}
+</style>
+<body>
+
+<div class=blk id=hero>
+<svg id=art width="1000" height="170" viewBox="0 0 1000 170"><defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#07060f"/><stop offset=".55" stop-color="#1b1638"/><stop offset="1" stop-color="#3b2f68"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#d8ccff" stop-opacity=".35"/><stop offset="1" stop-color="#d8ccff" stop-opacity="0"/></radialGradient>
+<radialGradient id="moon" cx=".4" cy=".4"><stop offset="0" stop-color="#f4f2fb"/><stop offset="1" stop-color="#bdb6d9"/></radialGradient>
+<linearGradient id="haze" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a74d6" stop-opacity="0"/><stop offset=".6" stop-color="#8a74d6" stop-opacity=".22"/><stop offset="1" stop-color="#8a74d6" stop-opacity="0"/></linearGradient>
+<radialGradient id="town" cx=".5" cy=".5"><stop offset="0" stop-color="#ff9e5e" stop-opacity=".35"/><stop offset="1" stop-color="#ff9e5e" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1000" height="170" fill="url(#sky)"/><g id="stars" fill="#fff"></g>
+<circle cx="602" cy="38" r="70" fill="url(#glow)"/><circle cx="602" cy="38" r="20" fill="url(#moon)"/>
+<circle cx="596" cy="33" r="3.5" fill="#cfc8e4"/><circle cx="609" cy="44" r="2.6" fill="#d2cce6"/><circle cx="594" cy="46" r="1.8" fill="#d2cce6"/>
+<g id="ridges"></g></svg>
+<div class=quote>“Build. Learn. Improve.”</div>
+</div>
+
+<div class="blk card" id=contact>
+ <div class=ico>&lt;/&gt;</div>
+ <div class=ctext><h3>Have an idea or a question?</h3><p class=mut>Reach me on social, or just send a mail.</p></div>
+ <div class="soc" id=s-ig><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/instagram.svg">Instagram</div>
+ <div class="soc" id=s-tt><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/tiktok.svg">TikTok</div>
+ <div class="soc" id=s-rd><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/reddit.svg">Reddit</div>
+ <div class=btn id=s-mail>Send me mail <span>→</span></div>
+</div>
+
+<div class=blk id=row2>
+ <div class=card id=stack>
+  <div class=ptitle><svg width=18 height=18 viewBox="0 0 24 24" fill="currentColor"><path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/></svg>Tech Stack</div>
+  <div class=icons>
+   <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/csharp/csharp-original.svg">C#</div>
+   <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/azuresqldatabase/azuresqldatabase-original.svg">SQL</div>
+   <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg">JavaScript</div>
+   <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/html5/html5-original.svg">HTML5</div>
+   <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/css3/css3-original.svg">CSS3</div>
+  </div>
+ </div>
+ <div class=card id=about>
+  <div class=ptitle><svg width=18 height=18 viewBox="0 0 24 24" fill="currentColor"><circle cx=12 cy=8 r="4.5"/><path d="M3 21c0-4.4 4-7 9-7s9 2.6 9 7z"/></svg>About me</div>
+  <p class=mut>Software Engineering student. I love building useful apps and learning new technologies every day.</p>
+  <div class=tags><span>◇ Backend Developer</span><span>◇ Always Learning</span></div>
+ </div>
+</div>
+
+<div id=projects></div>
+<script>
+
+function noise(seed){let v=seed;return()=>{v=(v*16807)%2147483647;return v/2147483647}}
+const R=document.getElementById('ridges');let html='';
+const layers=[[70,38,'#2e2656',11,.9],[92,30,'#231d45',23,1],[112,26,'#18142f',37,1],[134,22,'#0f0c1f',51,1]];
+layers.forEach(([base,amp,col,sd],k)=>{const n=noise(sd);let pts=[];let y=base;let peaks=[];for(let i=0;i<8;i++)peaks.push(n());
+ for(let x=0;x<=1000;x+=4){let h=0;for(let p=0;p<6;p++){h+=Math.sin(x/(60+p*40)+peaks[p]*6)*amp/(p+1.4)}h+=(n()-.5)*2.5;
+  if(k==3&&x>720) h-= (x-720)*0.12; pts.push(x+','+(base-h).toFixed(1))}
+ html+=`<path d="M0 170 L${pts.join(' L')} L1000 170Z" fill="${col}"/>`;
+ if(k<2)html+=`<rect y="${base-10}" width="1000" height="40" fill="url(#haze)"/>`;
+ if(k==2){html+='<ellipse cx="480" cy="140" rx="230" ry="22" fill="url(#town)"/><g fill="#ffb46e">';const m=noise(99);for(let i=0;i<110;i++){const t=m();const x=280+t*400;const y=128+Math.sin(t*9)*5+m()*14;html+=`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${(m()*.7+.3).toFixed(2)}" opacity="${(m()*.6+.4).toFixed(2)}"/>`}html+='</g>'}
+});
+html+='<path fill="#06050c" d="M806 128 C803 110 806 98 812 90 L808 66 L819 77 C823 75 829 75 833 77 L844 66 L840 90 C846 98 850 110 850 128 C858 126 866 130 864 137 C856 134 852 134 850 132 L806 132Z"/>';
+R.innerHTML=html;
+
+// stars
+const st=document.getElementById('stars');let s='';let r=7;const rnd=()=>{r=(r*9301+49297)%233280;return r/233280};
+for(let i=0;i<90;i++)s+=`<circle cx="${rnd()*1000}" cy="${rnd()*75}" r="${rnd()*.9+.2}" opacity="${rnd()*.7+.2}"/>`;st.innerHTML=s;
+
+// project cards
+const star='<svg width=13 height=13 viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg>';
+const ic={
+ campus:'<svg width=26 height=26 viewBox="0 0 24 24" fill="none" stroke="#ecebf3" stroke-width="2"><rect x=3 y=4 width=18 height=16 rx="2"/><path d="M7 9l3 3-3 3M12 15h5"/></svg>',
+ lt:'<svg width=26 height=26 viewBox="0 0 24 24" fill="#a78bfa"><path d="M12 1l2.6 8.4L23 12l-8.4 2.6L12 23l-2.6-8.4L1 12l8.4-2.6z"/></svg>',
+ clip:'<svg width=26 height=26 viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="2"><rect x=5 y=4 width=14 height=17 rx="2"/><path d="M9 4V2h6v2M9 11h6M9 15h4"/></svg>',
+ dev:'<svg width=26 height=26 viewBox="0 0 24 24" fill="#8b6cf6"><rect x=3 y=13 width=4 height=8 rx="1"/><rect x=10 y=8 width=4 height=13 rx="1"/><rect x=17 y=3 width=4 height=18 rx="1"/></svg>'};
+const pc=(id,i,n,d,s)=>`<div class="card pc" id="p-${id}"><div class=pi>${ic[i]}</div><div><h4>${n}</h4><p class=mut>${d}</p><div class=st>${star} ${s}</div></div></div>`;
+const sec=(id,icon,t,b,r)=>`<div class=sec id="h-${id}"><div class=l>${icon}${t} <span class="badge ${b}">${b=='hw'?'Hand-written':'Built with AI'}</span></div><div class="r mut">${r}</div></div>`;
+const fold='<svg width=18 height=18 viewBox="0 0 24 24" fill="#a78bfa"><path d="M3 6a2 2 0 012-2h5l2 2h7a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>';
+const cc=(id,o,n,s)=>`<div class="card cc" id="c-${id}"><img src="https://github.com/${o}.png?size=120"><div><h4>${n}</h4><div class=st>${star} ${s}</div></div></div>`;
+document.getElementById('projects').innerHTML=`<div class=big id=h-pin><svg width=20 height=20 viewBox="0 0 24 24" fill="#a78bfa"><path d="M16 3l5 5-3 1-4 4 1 5-2 2-4-4-5 5-1-1 5-5-4-4 2-2 5 1 4-4z"/></svg>Pinned Projects</div>`+
+ `<div class=blk>${sec('hw',fold,'Written by hand','hw','Every line of code is mine.')}<div class=grid>${pc('campus','campus','campus-budget-cli','A console budget tracker for students. C#, .NET.',2)}<div class=ghost></div></div></div>`+
+ `<div class=blk>${sec('ai',fold,'Built with AI','ai','My idea, plan, design and testing. AI wrote most of the code.')}<div class=grid style="margin-bottom:14px">${pc('lt','lt','last-token','Makes a Claude Code plan quota last longer.',1)}${pc('clipio','clip','clipio','Clipboard history for Windows, macOS and Linux.',1)}</div><div class=grid>${pc('devlog','dev','devlog','Tracks your coding time inside VS Code.',1)}<div class=ghost></div></div></div>`+`<div class=blk><div class=sec id=h-co><div class=l>${fold}Contributed to <span class="badge ai">Built with AI</span></div><div class="r mut">Merged pull requests in open-source projects.</div></div><div class=grid style="margin-bottom:14px">${cc('mailflare','hieunc229','mailflare','7.4k')}${cc('rust','erkamyaman','rust-anything','7.3k')}${cc('tv','Gathin23','cleanyourtv','60k')}</div><div class=grid>${cc('gpu','shanselman','gputaskman','3.7k')}${cc('hatch','xevrion','hatchzip','3k')}${cc('yog','FrigadeHQ','yogurt','2.8k')}</div></div>`;
+</script>
