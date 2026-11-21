@@ -1,9 +1,9 @@
-# Redraws the contribution calendar image in the profile README once a day.
-name: Update contribution calendar
+# Redraws the contribution calendar and the pinned project cards once a day.
+name: Update profile (calendar + pins)
 
 on:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -30,14 +30,16 @@ jobs:
       - name: Render calendar
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node .github/profile/update-calendar.mjs
+        run: |
+          node .github/profile/update-calendar.mjs
+          node .github/profile/update-pins.mjs
 
       # Commit only when the images changed
       - name: Commit
         run: |
-          git add assets/about-dark.png assets/about-light.png
+          git add -A assets README.md
           if git diff --cached --quiet; then echo "No change"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update contribution calendar"
+          git commit -m "Update calendar and pinned projects"
           git push

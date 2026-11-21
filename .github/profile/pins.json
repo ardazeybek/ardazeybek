@@ -1,0 +1,10 @@
+{
+  "_": "Optional per-repo overrides for pinned cards: badge (ai | hw) and a short description.",
+  "ardazeybek/last-token": { "badge": "ai", "desc": "Makes a Claude Code plan quota last longer." },
+  "ardazeybek/clipio": { "badge": "ai", "desc": "Clipboard history for Windows, macOS and Linux." },
+  "ardazeybek/devlog": { "badge": "ai", "desc": "Tracks your coding time inside VS Code." },
+  "ardazeybek/campus-budget-cli": { "badge": "hw", "desc": "A console budget tracker for students. C#, .NET." },
+  "Gathin23/cleanyourtv": { "desc": "Debloat any Android or Google TV over Wi-Fi." },
+  "hieunc229/mailflare": { "desc": "Email for professionals and teams." },
+  "microsoft/skill-recorder": { "desc": "Turns a recorded work session into a reusable skill." }
+}
